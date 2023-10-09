@@ -1,0 +1,22 @@
+Dotnet CLI Commands
+1.To check for the list of projects run the command:
+dotnet new --list
+
+2.To Create a web API project run the command:
+dotnet new webapi
+
+3. To Create a web API project and name  run the command
+ dotnet new webapi -n nameofwebapi
+
+4.To Create a slution   run the command
+ dotnet  new sln 
+
+5.To Create a slution  and name  run the command
+dotnet  new sln -n nameOfSolution
+
+6.To add anything that has a .csproj extension to a solution
+dotnet sln MySolution.sln add **/*.csproj
+
+For reference visit the official  docs below
+Link to commands
+https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sln
